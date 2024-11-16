@@ -1,0 +1,7 @@
+import random
+parole = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+count = int(input("Какой длины должен быть пароль?"))
+password = ""
+for i in range (count):
+    password +=random.choice(parole)
+print ("Ваш пароль:", password)
